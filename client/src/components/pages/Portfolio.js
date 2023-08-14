@@ -67,7 +67,7 @@ const Portfolio = () => {
                 {filteredItems.map((item, idx) => (
                     <div key={`items-${idx}`} className="item">
                         <p>{item.name}</p>
-                        <img>{item.img}</img>
+                        <img src={item.img}></img>
                     </div>
                 ))}
             </div>
