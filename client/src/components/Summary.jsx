@@ -57,7 +57,7 @@ const MySkills = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
             }
           >
-            Summary
+            Skillset
           </h2>
           <p
             className={
@@ -66,7 +66,7 @@ const MySkills = ({ classicHeader, darkTheme }) => {
             }
           >
             {" "}
-            Skillset
+            Summary
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>

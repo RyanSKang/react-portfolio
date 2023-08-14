@@ -88,6 +88,23 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   style={{ cursor: "pointer" }}
                   activeClass="active"
                   spy
+                  to="resume"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setIsNavModalClose(true);
+                  }}
+                >
+                  Summary
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link "
+                  smooth
+                  duration={500}
+                  style={{ cursor: "pointer" }}
+                  activeClass="active"
+                  spy
                   to="portfolio"
                   onClick={(e) => {
                     e.preventDefault();

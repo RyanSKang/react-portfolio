@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Home from "./components/Home";
 import AboutUs from "./components/About";
-import Resume from "./components/Resume";
+import Summary from "./components/Summary";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -73,10 +73,10 @@ function App() {
               classicHeader={classicHeader}
               darkTheme={darkTheme}
             ></AboutUs>
-            <Resume
+            <Summary
               classicHeader={classicHeader}
               darkTheme={darkTheme}
-            ></Resume>
+            ></Summary>
             <Portfolio
               classicHeader={classicHeader}
               darkTheme={darkTheme}

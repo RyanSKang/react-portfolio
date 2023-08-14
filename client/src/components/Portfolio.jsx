@@ -3,7 +3,7 @@ import Isotope from "isotope-layout";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
 // Importing Project Images
-import bookSearch from '../assets/projects/bookSearch.jpg'
+// import bookSearch from '../assets/projects/bookSearch.jpg'
 const Portfolio = ({ classicHeader, darkTheme }) => {
   // init one ref to store the future isotope object
   const isotope = useRef();
@@ -24,78 +24,78 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       title: "Book Search Engine",
       projectInfo:
         "This application is built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. This application takes a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo server.",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "MongoDB, Express.js, ReactJs, Node.js",
       date: "August 08, 2023",
       url: {
         name: "Book Search Engine Heroku App",
         link: "https://mern-book-search-engine-ryans-bf5f87e59dcd.herokuapp.com/",
       },
-      thumbImage: {bookSearch},
+      thumbImage: "images/projects/bookSearch.jpg",
       categories: [filters.MERN, filters.API],
     },
     {
       title: "Magic Carpet ",
       projectInfo:
         "This application utilizes React on the front end, along with MongoDB Database, and Node.js/Express.js server and API. We are using a GraphQL API built with Apollo server to retrieve our data. The main goal of this application is to provide data bookings for our Users, so that they can see the world in a new perspective as a fellow traveler.",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "MongoDB, Express.js, ReactJs, Node.js",
       date: "August 08, 2023",
       url: {
         name: "Magic Carpet Heroku App",
         link: "https://the-magic-carpet-037d75dd3e3d.herokuapp.com/",
       },
-      thumbImage: "assets/projects/magicCarpet.jpg",
+      thumbImage: "images/projects/magicCarpet.jpg",
       categories: [filters.MERN, filters.API],
     },
     {
       title: "Weather Dashboard",
       projectInfo:
         "The main goal for the Weather Dashboard was to use a WeatherAPI and a GeoLocation API cohesively so that we can extract data and display it to our webapplication in our own way.",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "JavaScript, HTML, CSS",
       date: "April 04, 2023",
       url: {
         name: "Weather App Github Deployed App",
         link: "https://ryanskang.github.io/Weather-Dashboard/",
       },
-      thumbImage: "assets/projects/weatherApp.jpg",
+      thumbImage: "images/projects/weatherApp.jpg",
       categories: [filters.API],
     },
     {
       title: "NoSQL Social Network BackEnd",
       projectInfo:
         "This application is a built API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list. This application utilizes Express.js and Mongoose packages.",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "Express.js, Mongoose, JavaScript",
       date: "August 01, 2023",
       url: {
         name: "Video Walkthrough of back end functionality",
         link: "https://watch.screencastify.com/v/XZeZGGOWW8oloJLLxXZI",
       },
-      thumbImage: "assets/projects/noSQLNetwork.jpg",
+      thumbImage: "images/projects/noSQLNetwork.jpg",
       categories: [filters.NoSQL, filters.API],
     },
     {
       title: "PWA Text Editor",
       projectInfo:
         "This application is a text editor that runs in the browser. This is a single-page application that meets the Progressive Web Applications criteria. An additional feature of this project will be persistence techniques that serve as redundancy in case one of the options is not supported by the browser (also able to function offline).",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "Express.js, Webpack, Babel-Loader, JavaScript",
       date: "August 03, 2023",
       url: {
         name: "PWA Text Editor Heroku Application",
         link: "https://ryans-pwa-texteditor-f2ff23e03321.herokuapp.com/",
       },
-      thumbImage: "assets/projects/pwaTextEditor.jpg",
+      thumbImage: "images/projects/pwaTextEditor.jpg",
       categories: [filters.PWA],
     },
     {
       title: "API Code Challenge",
       projectInfo:
         "The importance of creating a quiz game using HTML, CSS and JavaScript is to really help the web application be more dynamic when the user interacts with it.",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "JavaScript, HTML, CSS",
       date: "March 21, 2023",
       url: {
         name: "API Quiz Challenge Github Deployed Application",
         link: "https://ryanskang.github.io/APIs-Code-Challenge/",
       },
-      thumbImage: "assets/projects/codeQuiz.jpg",
+      thumbImage: "images/projects/codeQuiz.jpg",
       sliderImages: [
         "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",

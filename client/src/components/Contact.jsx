@@ -14,10 +14,10 @@ const Contact = ({ classicHeader, darkTheme }) => {
     setSendingMail(true);
     emailjs
       .sendForm(
-        "service_i86k3ms",
-        "template_si6cin9",
+        "service_gcegchf",
+        "template_n0zk3rr",
         form.current,
-        "c9HsDgGF0tvWyVnAL"
+        "dBmsN8fEe91bdP0V5"
       )
       .then(
         (result) => {
@@ -175,7 +175,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     className="form-control"
                     rows={5}
                     required
-                    placeholder="Please provide feedback!"
+                    placeholder="Please leave a message here!"
                     defaultValue={""}
                   />
                 </div>
