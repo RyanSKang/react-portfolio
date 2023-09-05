@@ -30,7 +30,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                         "I'm Ryan Kang.",
                         "I'm a Learner.",
                         "I'm a Troubleshooter.",
-                        "I'm Open To Work.",
+                        "I'm a Web Developer.",
                       ],
                       autoStart: true,
                       loop: true,
