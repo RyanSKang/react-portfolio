@@ -1,7 +1,7 @@
 {
   "name": "ryans-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://RyanSKang.github.io/react-portfolio",
+  "homepage": "https://ryanskang.github.io/react-portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
